@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+	<html>
+		<body>
+			<h2>Players Who Play for Toronto</h2>
+			<table border="1">
+				<tr bgcolor="#9acd32">
+					<th style="text-align:left">PlayerName</th>
+					<th style="text-align:left">DraftYear</th>
+					<th style="text-align:left">Points</th>
+				</tr>
+				
+				<xsl:for-each select="StartingPlayersData/StartingPlayers[TeamName='Toronto Raptors'] ">
+				<tr>
+					   	<td><xsl:value-of select="Name"/></td>
+						<td><xsl:value-of select="DraftYear"/></td>
+						<td><xsl:value-of select="Points"/></td>
+				</tr>
+				</xsl:for-each>
+					
+				</table>
+		</body>
+	</html>
+	</xsl:template>
+	</xsl:stylesheet>
+	
+<!-------------------------------------------------------------------->	
+	
+	<?xml version="1.0" encoding="UTF-8"?>
+	<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+	<html>
+		<body>
+			<h2>Coaches With WinPercentage Above 50%</h2>
+			<table border="1">
+				<tr bgcolor="#9acd32">
+					<th style="text-align:left">Name</th>
+					<th style="text-align:left">TeamName</th>
+					<th style="text-align:left">WinPercentage</th>
+				</tr>
+				
+				<xsl:for-each select="HeadCoachData/HeadCoach[WinPercentage >='50']">
+				<tr>
+					   	<td><xsl:value-of select="Name"/></td>
+						<td><xsl:value-of select="TeamName"/></td>
+						<td><xsl:value-of select="WinPercentage"/></td>
+				</tr>
+				</xsl:for-each>
+					
+				</table>
+		</body>
+	</html>
+	</xsl:template>
+	</xsl:stylesheet>
+<!-------------------------------------------------------------------->	
+	<?xml version="1.0" encoding="UTF-8"?>
+	<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+	<html>
+		<body>
+			<h2>General Manager Age >= 40 Years Old</h2>
+			<table border="1">
+				<tr bgcolor="#9acd32">
+					<th style="text-align:left">Name</th>
+					<th style="text-align:left">TeamName</th>
+					<th style="text-align:left">Age</th>
+				</tr>
+				
+				<xsl:for-each select="GeneralManagerData/GeneralManager[Age>='40']">
+				<tr>
+					   	<td><xsl:value-of select="Name"/></td>
+						<td><xsl:value-of select="TeamName"/></td>
+						<td><xsl:value-of select="Age"/></td>
+				</tr>
+				</xsl:for-each>
+					
+				</table>
+		</body>
+	</html>
+	</xsl:template>
+	</xsl:stylesheet>
+	<!-------------------------------------------------------------------->	
+	
+	<?xml version="1.0" encoding="UTF-8"?>
+	<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+	<html>
+		<body>
+			<h2>Owners With NetWorth = $2 Billion</h2>
+			<table border="1">
+				<tr bgcolor="#9acd32">
+					<th style="text-align:left">Name</th>
+					<th style="text-align:left">TeamName</th>
+					<th style="text-align:left">Age</th>
+				</tr>
+				
+				<xsl:for-each select="OwnerData/Owner[NetWorth='$2 Billion']">
+				<tr>
+					   	<td><xsl:value-of select="Name"/></td>
+
+				</tr>
+				</xsl:for-each>
+					
+				</table>
+		</body>
+	</html>
+	</xsl:template>
+	</xsl:stylesheet>
+	<!-------------------------------------------------------------------->	
+	
+	<?xml version="1.0" encoding="UTF-8"?>
+	<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+	<html>
+		<body>
+			<h2>Teams Sponsor Details</h2>
+			<table border="1">
+				<tr bgcolor="#9acd32">
+					<th style="text-align:left">Name</th>
+					<th style="text-align:left">TeamName</th>
+					<th style="text-align:left">CompanyNetWorth</th>
+				</tr>
+				
+				<xsl:for-each select="CompanyData/Company">
+				<tr>
+					   	<td><xsl:value-of select="Name"/></td>
+						<td><xsl:value-of select="TeamName"/></td>
+						<td><xsl:value-of select="CompanyNet"/></td>
+				</tr>
+				</xsl:for-each>
+					
+				</table>
+		</body>
+	</html>
+	</xsl:template>
+	</xsl:stylesheet>

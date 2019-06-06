@@ -1,0 +1,146 @@
+-- 1)Who are the StartingPlayers for the Teams and their jersey number?
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Milwaukee Bucks';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Toronto Raptors';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Indiana Pacers';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Boston Celtics';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Philadelphia 76ers';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Brooklyn Nets';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Charlotte Hornets';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Detroit Pistons';
+
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Golden State Warriors';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Denver Nuggets';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Oklahoma City Thunder';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Portland Trail Blazers';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Houston Rockets';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Utah Jazz';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='San Antonio Spurs';
+SELECT Name,PlayerNumber  FROM StartingPlayers WHERE TeamName ='Los Angeles Clippers';
+
+--2)Who are the owners of the teams? What is the Owners NetWorth?
+
+SELECT Name,NetWorth FROM Owner Where TeamName='Milwaukee Bucks';
+SELECT Name,NetWorth FROM Owner Where TeamName='Toronto Raptors';
+SELECT Name,NetWorth FROM Owner Where TeamName='Indiana Pacers';
+SELECT Name,NetWorth FROM Owner Where TeamName='Boston Celtics';
+SELECT Name,NetWorth FROM Owner Where TeamName='Philadelphia 76ers';
+SELECT Name,NetWorth FROM Owner Where TeamName='Brooklyn Nets';
+SELECT Name,NetWorth FROM Owner Where TeamName='Charlotte Hornets';
+SELECT Name,NetWorth FROM Owner Where TeamName='Detroit Pistons';
+
+SELECT Name,NetWorth FROM Owner Where TeamName='Golden State Warriors';
+SELECT Name,NetWorth FROM Owner Where TeamName='Denver Nuggets';
+SELECT Name,NetWorth FROM Owner Where TeamName='Oklahoma City Thunder';
+SELECT Name,NetWorth FROM Owner Where TeamName='Portland Trail Blazers';
+SELECT Name,NetWorth FROM Owner Where TeamName='Houston Rockets';
+SELECT Name,NetWorth FROM Owner Where TeamName='Utah Jazz';
+SELECT Name,NetWorth FROM Owner Where TeamName='San Antonio Spurs';
+SELECT Name,NetWorth FROM Owner Where TeamName='Los Angeles Clippers';
+
+--3)What Divisions are teams in ?
+SELECT TeamName FROM Team WHERE Conference ='Eastern';
+SELECT TeamName FROM Team WHERE Conference ='Western';
+
+--4)Who is the headcoach of each team? Their win percentage?
+
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Milwaukee Bucks';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Toronto Raptors';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Indiana Pacers';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Boston Celtics';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Philadelphia 76ers';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Brooklyn Nets';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Charlotte Hornets';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Detroit Pistons';
+
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Golden State Warriors';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Denver Nuggets';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Oklahoma City Thunder';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Portland Trail Blazers';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Houston Rockets';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Utah Jazz';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='San Antonio Spurs';
+SELECT Name,WinPercentage FROM HeadCoach WHERE TeamName='Los Angeles Clippers';
+
+--5)Who is the GeneralManger of each team and age?
+SELECT Name,Age FROM GeneralManager WHERE TeamName='Milwaukee Bucks';
+SELECT Name,Age FROM GeneralManager WHERE TeamName='Toronto Raptors';
+SELECT Name,Age FROM GeneralManager WHERE TeamName='Indiana Pacers';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Boston Celtics';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Philadelphia 76ers';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Brooklyn Nets';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Charlotte Hornets';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Detroit Pistons';
+
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Golden State Warriors';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Denver Nuggets';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Oklahoma City Thunder';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Portland Trail Blazers';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Houston Rockets';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Utah Jazz';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='San Antonio Spurs';
+SELECT Name,Age FROM GeneralManager  WHERE TeamName='Los Angeles Clippers';
+
+------------------
+--6)Who are the team sponsors and their net worth?
+
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Milwaukee Bucks';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Toronto Raptors';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Indiana Pacers';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Boston Celtics';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Philadelphia 76ers';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Brooklyn Nets';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Charlotte Hornets';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Detroit Pistons';
+
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Golden State Warriors';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Denver Nuggets';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Oklahoma City Thunder';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Portland Trail Blazers';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Houston Rockets';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Utah Jazz';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='San Antonio Spurs';
+SELECT Name,CompanyNet FROM Company WHERE TeamName='Los Angeles Clippers';
+
+--7) what is the teams homecity?
+--8) how many championships has the team won?
+--9)What is the teams salary cap?
+--10) what is the teams win percentage?
+
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage   FROM Team WHERE TeamName ='Milwaukee Bucks';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Toronto Raptors';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage FROM Team WHERE TeamName ='Indiana Pacers';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Boston Celtics';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Philadelphia 76ers';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Brooklyn Nets';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Charlotte Hornets';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Detroit Pistons';
+
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Golden State Warriors';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Denver Nuggets';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Oklahoma City Thunder';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Portland Trail Blazers';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Houston Rockets';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Utah Jazz';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='San Antonio Spurs';
+SELECT HomeCity,Championships,SalaryCap,GameWinPercentage  FROM Team WHERE TeamName ='Los Angeles Clippers';
+
+--11) What are the Statistics for StartingPlayers?
+SELECT * FROM StartingPlayers WHERE TeamName ='Milwaukee Bucks';
+SELECT * FROM StartingPlayers WHERE TeamName ='Toronto Raptors';
+SELECT * FROM StartingPlayers WHERE TeamName ='Indiana Pacers';
+SELECT * FROM StartingPlayers WHERE TeamName ='Boston Celtics';
+SELECT * FROM StartingPlayers WHERE TeamName ='Philadelphia 76ers';
+SELECT * FROM StartingPlayers WHERE TeamName ='Brooklyn Nets';
+SELECT * FROM StartingPlayers WHERE TeamName ='Charlotte Hornets';
+SELECT * FROM StartingPlayers WHERE TeamName ='Detroit Pistons';
+
+SELECT * FROM StartingPlayers WHERE TeamName ='Golden State Warriors';
+SELECT * FROM StartingPlayers WHERE TeamName ='Denver Nuggets';
+SELECT * FROM StartingPlayers WHERE TeamName ='Oklahoma City Thunder';
+SELECT * FROM StartingPlayers WHERE TeamName ='Portland Trail Blazers';
+SELECT * FROM StartingPlayers WHERE TeamName ='Houston Rockets';
+SELECT * FROM StartingPlayers WHERE TeamName ='Utah Jazz';
+SELECT * FROM StartingPlayers WHERE TeamName ='San Antonio Spurs';
+SELECT * FROM StartingPlayers WHERE TeamName ='Los Angeles Clippers';
+
+

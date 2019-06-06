@@ -1,0 +1,104 @@
+--Starting Players
+--eastern conference
+--Milwuakee
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Eric Bledsoe','Milwaukee Bucks',6,29,2010,15.6,5.3,4.5,48.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Malcolm Brogdon','Milwaukee Bucks',13,26,2016,15.7,3.3,4.8,50.4);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Khris Middleton','Milwaukee Bucks',22,27,2012,17.1,4.2,6.0,43.4);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Giannis Antetokounmpo','Milwaukee Bucks',34,24,2013,27.2,12.7,6.0,58.1);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Brook Lopez','Milwaukee Bucks',11,30,2008,12.1,1.1,4.3,45.2);
+
+--Raptors
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Kyle Lowry','Toronto Raptors',7,32,2006,14.3,9.2,4.5,41.0);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Danny Green','Toronto Raptors',14,31,2009,9.8,1.4,4.1,44.6);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Kawhi Leonard','Toronto Raptors',2,27,2011,27.0,3.3,7.7,49.4);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Pascal Siakam','Toronto Raptors',43,24,2016,16.1,2.8,7.0,55.1);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Serge Ibaka','Toronto Raptors',9,29,2008,16.0,1.5,8.0,52.7);
+--Pacers
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Darren Collison','Indiana Pacers',2,31,2009,10.5,5.9,2.9,47.1);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Tyreke Evans','Indiana Pacers',12,29,2009,10.4,2.4,2.7,48.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Bojan Bogdanovic','Indiana Pacers',44,29,2011,16.8,1.8,4.9,49.4);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Thaddeus Young','Indiana Pacers',21,30,2007,12.5,2.2,6.4,53.2);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Myles Turner','Indiana Pacers',33,22,2015,13.5,1.6,7.0,50.9);
+--Celtics
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Kyrie Irving','Boston Celtics',11,26,2011,23.5,6.9,4.8,49.3);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Marcus Smart','Boston Celtics',36,24,2014,8.3,4.1,2.9,39.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Jayson Tatum','Boston Celtics',0,20,2017,16.5,1.9,6.4,45.4);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Marcus Morris','Boston Celtics',13,29,2011,14.5,1.4,6.1,47.3);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Al Horford','Boston Celtics',42,32,2007,12.9,4.0,7.0,52.2);
+--76ers
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Ben Simmons','Philadelphia 76ers',25,22,2016,16.8,7.8,9.0,56.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('JJ Redick','Philadelphia 76ers',17,34,2006,18.5,2.8,2.3,45.1);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Jimmy Butler','Philadelphia 76ers',23,29,2011,19.3,4.0,5.1,47.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Tobias Harris','Philadelphia 76ers',33,26,2011,20.8,2.8,7.9,49.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Joel Embiid','Philadelphia 76ers',21,24,2014,27.3,3.5,13.5,48.2);
+--Nets
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('D Angelo Russell','Brooklyn Nets',1,22,2015,20.2,6.7,3.8,43.3);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Joe Harris','Brooklyn Nets',12,27,2014,13.8,2.5,3.7,50.1);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Rodions Kurucs','Brooklyn Nets',00,21,2018,8.8,0.7,3.6,45.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('DeMarre Carroll','Brooklyn Nets',9,32,2009,11.1,1.3,5.3,38.7);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Jarrett Allen','Brooklyn Nets',31,20,2017,11.2,1.5,8.7,57.2);
+--Hornets
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Kemba Walker','Charlotte Hornets',15,28,2011,24.9,5.6,4.4,43.1);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Jeremy Lamb','Charlotte Hornets',3,26,2012,15.2,2.0,5.6,44.2);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Nicolas Batum','Charlotte Hornets',5,30,2008,9.3,3.4,5.2,46.0);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Marvin Williams','Charlotte Hornets',2,32,2005,10.3,5.6,0.7,42.2);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Willy Hernangomez','Charlotte Hornets',41,24,2015,7.3,0.9,5.5,51.5);
+--Pistons
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Reggie Jackson','Detroit Pistons',1,28,2011,14.9,4.4,2.8,41.4);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Wayne Ellington','Detroit Pistons',20,31,2009,8.3,1.2,1.9,36.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Khyri Thomas','Detroit Pistons',13,22,2018,2.9,0.3,0.8,37.0);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Blake Griffin','Detroit Pistons',23,29,2009,26.3,5.4,8.1,47.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Andre Drummond','Detroit Pistons',0,25,2012,17.4,1.2,15.0,52.7);
+
+-----------------------------------------------------------------------------------------------------------------------------
+--western conference
+
+--Golden State
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Stephen Curry','Golden State Warriors',30,30,2009,28.8,5.3,5.1,48.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Klay Thompson','Golden State Warriors',11,29,2011,21.8,2.2,4.0,46.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Kevin Durant','Golden State Warriors',35,30,2007,27.6,5.9,7.0,51.6);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Draymond Green','Golden State Warriors',23,28,2012,7.2,7.3,7.5,42.6);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('DeMarcus Cousins','Golden State Warriors',0,28,2010,14.2,3.7,7.1,43.1);
+--Nuggets
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Jamal Murray','Denver Nuggets',27,21,2016,18.3,5.0,4.2,43.0);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Malik Beasley','Denver Nuggets',25,22,2016,12.0,1.2,2.5,50.3);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Torrey Craig','Denver Nuggets',3,28,0000,6.0,0.9,3.9,43.5);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Paul Millsap','Denver Nuggets',4,34,2006,12.2,1.9,6.7,48.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Nikola Jokic','Denver Nuggets',15,24,2014,20.4,7.7,10.6,50.5);
+--OKC
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Russell Westbrook	','Oklahoma City Thunder',0,30,2008,21.7,11.2,11.2,41.7);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Terrance Ferguson','Oklahoma City Thunder',23,20,2017,6.8,0.8,1.8,43.6);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Paul George','Oklahoma City Thunder',13,28,2010,28.7,4.1,8.0,45.3);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Jerami Grant','Oklahoma City Thunder',9,24,2014,13.1,0.9,5.1,52.0);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Steven Adams','Oklahoma City Thunder',12,25,2013,14.7,1.7,9.5,60.7);
+--Portland
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Damian Lillard','Portland Trail Blazers',0,28,2012,26.1,6.4,4.5,44.6);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('CJ McCollum','Portland Trail Blazers',3,27,2013,21.0,2.8,4.0,45.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Maurice Harkless','Portland Trail Blazers',4,25,2012,6.2,0.8,3.9,45.5);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Al-Farouq Aminu','Portland Trail Blazers',8,28,2010,9.4,1.3,7.9,43.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Jusuf Nurkic','Portland Trail Blazers',27,24,2014,15.2,3.1,10.2,50.5);
+--Houston
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Chris Paul','Houston Rockets',3,33,2005,15.8,8.0,4.3,42.5);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('James Harden','Houston Rockets',13,29,2009,36.5,7.7,6.6,44.2);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Iman Shumpert','Houston Rockets',1,28,2011,8.6,2.1,3.0,37.5);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('PJ Tucker','Houston Rockets',17,33,2006,7.5,1.3,6.2,39.1);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Kenneth Faried','Houston Rockets',35,29,2011,10.6,0.6,6.9,62.5);
+--Jazz
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Ricky Rubio','Utah Jazz',3,28,2009,13.0,6.1,3.7,40.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Donovan Mitchell','Utah Jazz',45,22,2017,22.4,4.0,3.9,41.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Joe Ingles','Utah Jazz',2,31,0000,11.7,4.9,3.8,43.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Derrick Favors','Utah Jazz',15,27,2010,11.0,1.1,7.1,56.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Rudy Gobert','Utah Jazz',27,26,2013,15.2,2.2,12.9,65.4);
+--SPURS
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Bryn Forbes','San Antonio Spurs',11,25,0000,12.0,2.2,2.9,44.6);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('DeMar DeRozan','San Antonio Spurs',10,29,2009,21.4,6.1,6.1,46.3);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Rudy Gay','San Antonio Spurs',22,32,2006,14.5,2.6,6.5,51.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Davis Bertans','San Antonio Spurs',42,26,2011,8.3,1.2,3.5,48.5);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('LaMarcus Aldridge','San Antonio Spurs',12,33,2006,21.0,2.6,9.0,50.9);
+--LA CLIPPERS
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Shai Gilgeous-Alexander','Los Angeles Clippers',2,20,2018,10.1,3.0,2.7,46.8);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Lou Williams','Los Angeles Clippers',23,32,2005,19.9,5.3,2.9,42.9);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Danilo Gallinari','Los Angeles Clippers',8,30,2008,18.7,2.5,6.0,45.0);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('JaMychal Green','Los Angeles Clippers',4,28,0000,9.6,0.8,6.1,49.1);
+INSERT INTO StartingPlayers(Name,Teamname,PlayerNumber,Age,DraftYear,Points,Assist,Rebounds,FieldGoalPercentage) VALUES ('Montrezl Harrell','Los Angeles Clippers',5,25,2015,15.9,1.8,6.7,62.2);
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

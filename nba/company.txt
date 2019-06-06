@@ -1,0 +1,22 @@
+-- COMPANY TABLE
+--eastern conference top 8 COMPANY TABLE
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Harley Davidson','Milwaukee Bucks','$9 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Sun Life','Toronto Raptors','$258 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Motorola','Indiana Pacers','$13 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('General Electric','Boston Celtics','$70 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('StubHub','Philadelphia 76ers','$310 Million');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Infor','Brooklyn Nets','$10 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Lending Tree','Charlotte Hornets','$3 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Flagstar Bank','Detroit Pistons','$14 Billion');
+
+--Western conference top 8
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Rakuten','Golden State Warriors','$4.8 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Western Union','Denver Nuggets','$2 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('N/A','Oklahoma City Thunder','N/A');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('BiOFREEZE','Portland Trail Blazers','$70 Million');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('ROCKiT','Houston Rockets','$2 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('5 For The Fight','Utah Jazz','$10 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Frost','San Antonio Spurs','$1 Billion');
+INSERT INTO Company(Name,TeamName,CompanyNet) VALUES ('Bumble','Los Angeles Clippers','$5 Billion');
+
+-------------------------------------------------------------------------------------------------------------

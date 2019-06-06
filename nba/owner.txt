@@ -1,0 +1,21 @@
+--OWNER TABLE
+--eastern conference owners top 8 teams
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Herb Kohl','Milwaukee Bucks','$630 Million');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Maple Leaf Sports & Entertainment','Toronto Raptors','$2 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Herbert Simon','Indiana Pacers','$2 billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Boston Basketball Partners L.L.C.','Boston Celtics','$2.5 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Joshua Harris','Philadelphia 76ers','$4 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Mikhail Prokhorov','Brooklyn Nets','$13 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Michael Jordan','Charlotte Hornets','$2 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Tom Gores','Detroit Pistons','$3 Billion');
+
+--western conference owners
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Peter Guber, Joe Lacob','Golden State Warriors','$3 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Stan Kroenke','Denver Nuggets','$5 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Professional Basketball Club LLC','Oklahoma City Thunder','$600 Million');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Paul Allen','Portland Trail Blazers','$15 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Leslie Alexander','Houston Rockets','$2 Billion');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Larry H. Miller Sports & Entertainment','Utah Jazz','$480 Million');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Peter Holt','San Antonio Spurs','$200 Million');
+INSERT INTO Owner(Name,TeamName,NetWorth) VALUES ('Steve Ballmer','Los Angeles Clippers','$2 Billion');
+-------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,61 @@
+CREATE TABLE Company(
+	Id INTEGER PRIMARY KEY AUTOINCREMENT,
+	Name VARCHAR(255) NOT NULL,
+	DonationValue INT NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CONSTRAINT UIX_Name UNIQUE(Name),
+	CONSTRAINT FK_Team FOREIGN KEY (TeamName) REFERENCES Team(TeamName) 
+); -- company can sponsor many teams, a team can be sponsored by many companies( MANY to MANY)
+
+CREATE TABLE Owner(
+	Id INTEGER PRIMARY KEY AUTOINCREMENT,
+	Name VARCHAR(255) NOT NULL,
+	NetWorth INT NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CONSTRAINT UIX_Name UNIQUE(Name),
+	CONSTRAINT FK_Team FOREIGN KEY (TeamName) REFERENCES Team(TeamName)
+);  -- A team can be owned by multiple owners, owners can only own one team (MANY TO ONE)
+
+CREATE TABLE GeneralManager(
+	Id INTEGER PRIMARY KEY AUTOINCREMENT,
+	Name VARCHAR(255) NOT NULL,
+	Age INT NOT NULL,
+	NumberOfTeams INT NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CONSTRAINT UIX_Name UNIQUE(Name),
+	CONSTRAINT FK_Team FOREIGN KEY (TeamName) REFERENCES Team(TeamName)
+); -- Optional for a team to be managed by a general manager, a general manager manages one team (ONE TO ONE)
+
+CREATE TABLE Team(
+	TeamName VARCHAR(255) NOT NULL, 
+	HomeCity VARCHAR(255) NOT NULL,
+	Conference VARCHAR(255) NOT NULL,
+	SalaryCap INT NOT NULL,
+	Championships INT NOT NULL,
+	GameWinPercentage INT NOT NULL,
+	PRIMARY KEY (TeamName)	
+); 
+
+CREATE TABLE HeadCoach(
+	Id INTEGER PRIMARY KEY AUTOINCREMENT,
+	WinPercentage INT NOT NULL,
+	Age INT NOT NULL,
+	Name VARCHAR(255) NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CONSTRAINT UIX_Name UNIQUE(NAME),
+	CONSTRAINT FK_Team FOREIGN KEY (TeamName) REFERENCES Team(TeamName)
+); -- Mandatory for a team to be trained by a headcoach, headcoach can only be training one team (ONE TO ONE)
+
+CREATE TABLE StartingPlayers(
+	Name VARCHAR(255) NOT NULL,
+	PlayerNumber INT NOT NULL,
+	Age INT NOT NULL,
+	Points INT NOT NULL,
+	Assist INT NOT NULL,
+	Rebounds INT NOT NULL,
+	FieldGoalPercentage INT NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CONSTRAINT PK_StartingPlayer PRIMARY KEY (Name,PlayerNumber),
+	CONSTRAINT FK_Team FOREIGN KEY (TeamName) REFERENCES Team(TeamName)
+	
+); -- team is composed of players that play, players play for one team (MANY TO ONE)

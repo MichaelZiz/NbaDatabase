@@ -1,0 +1,21 @@
+--General Manager TABLE
+--eastern conference
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Jon Horst','Milwaukee Bucks',35,2);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Masai Ujiri','Toronto Raptors',48,1);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Chad Buchanan','Indiana Pacers',50,2);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Danny Ainge','Boston Celtics',59,4);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Elton Brand','Philadelphia 76ers',39,2);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Sean Marks','Brooklyn Nets',43,1);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Mitch Kupchak','Charlotte Hornets',64,1);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Jeff Bower','Detroit Pistons',57,2);
+
+--western conference 
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Bob Myers','Golden State Warriors',43,1);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Arturas Karnisovas','Denver Nuggets',47,1);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Sam Presti','Oklahoma City Thunder',42,2);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Neil Olshey','Portland Trail Blazers',54,1);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Daryl Morey','Houston Rockets',46,1);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Dennis Lindsey','Utah Jazz',50,2);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('R.C Buford','San Antonio Spurs',58,0);
+INSERT INTO GeneralManager(Name,TeamName,Age,NumberOfTeams) VALUES ('Michael Winger','Los Angeles Clippers',40,1);
+-----------------------------------------------------------------------------------------------------------------------

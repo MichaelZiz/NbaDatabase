@@ -1,0 +1,504 @@
+ <StartingPlayersData>
+ 
+ 
+ 
+		<Team>
+			<TeamName>Milwaukee Bucks</TeamName>
+			<HomeCity>Milwaukee</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$123,065,625</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>51</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Toronto Raptors</TeamName>
+			<HomeCity>Toronto</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$136,979,841</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>46</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Indiana Pacers</TeamName>
+			<HomeCity>Indianapolis</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$110,579,462</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>50</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Boston Celtics</TeamName>
+			<HomeCity>Boston</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$125,402,503</SalaryCap>
+			<Championships>17</Championships>
+			<GameWinPercentage>59</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Philadelphia 76ers</TeamName>
+			<HomeCity>Philadelphia</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$111,902,261</SalaryCap>
+			<Championships>3</Championships>
+			<GameWinPercentage>51</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Brooklyn Nets</TeamName>
+			<HomeCity>Brooklyn</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$117,566,883</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>42</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Charlotte Hornets</TeamName>
+			<HomeCity>Charlotte</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$121,810,182</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>44</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Detroit Pistons</TeamName>
+			<HomeCity>Detroit</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$123,481,463</SalaryCap>
+			<Championships>3</Championships>
+			<GameWinPercentage>49</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Golden State Warriors</TeamName>
+			<HomeCity>Oakland</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$144,992,231</SalaryCap>
+			<Championships>6</Championships>
+			<GameWinPercentage>48</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Denver Nuggets</TeamName>
+			<HomeCity>Denver</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$116,721,540</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>49</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Oklahoma City Thunder</TeamName>
+			<HomeCity>Oklahoma City</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$142,717,677</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Portland Trail Blazers</TeamName>
+			<HomeCity>Portland</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$132,346,018</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Houston Rockets</TeamName>
+			<HomeCity>Houston</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$122,855,390</SalaryCap>
+			<Championships>2</Championships>
+			<GameWinPercentage>53</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Utah Jazz</TeamName>
+			<HomeCity>Salt Lake City</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$113,394,016</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>San Antonio Spurs</TeamName>
+			<HomeCity>San Antonio</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$122,617,513</SalaryCap>
+			<Championships>5</Championships>
+			<GameWinPercentage>62</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Los Angeles Clippers</TeamName>
+			<HomeCity>Los Angeles</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$116,731,007</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>40</GameWinPercentage>
+		</Team>
+ 
+ 
+	<StartingPlayers>
+		<Name>Eric Bledsoe</Name>
+		<TeamName>Milwaukee Bucks</TeamName>
+		<PlayerNumber>6</PlayerNumber>
+		<Age>29</Age>
+		<DraftYear>2010</DraftYear>
+		<Points>15.6</Points>
+		<Assists>5.3</Assists>
+		<Rebounds>4.5</Rebounds>
+		<FieldGoalPercentage>48.9</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Malcolm Brogdon</Name>
+		<TeamName>Milwaukee Bucks</TeamName>
+		<PlayerNumber>13</PlayerNumber>
+		<Age>26</Age>
+		<DraftYear>2016</DraftYear>
+		<Points>15.7</Points>
+		<Assists>3.3</Assists>
+		<Rebounds>4.8</Rebounds>
+		<FieldGoalPercentage>50.4</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Khris Middleton</Name>
+		<TeamName>Milwaukee Bucks</TeamName>
+		<PlayerNumber>22</PlayerNumber>
+		<Age>27</Age>
+		<DraftYear>2012</DraftYear>
+		<Points>17.1</Points>
+		<Assists>4.2</Assists>
+		<Rebounds>6.0</Rebounds>
+		<FieldGoalPercentage>43.4</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Giannis Antetokounmpo</Name>
+		<TeamName>Milwaukee Bucks</TeamName>
+		<PlayerNumber>34</PlayerNumber>
+		<Age>24</Age>
+		<DraftYear>2013</DraftYear>
+		<Points>27.2</Points>
+		<Assists>12.7</Assists>
+		<Rebounds>6.0</Rebounds>
+		<FieldGoalPercentage>58.1</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Brook Lopez</Name>
+		<TeamName>Milwaukee Bucks</TeamName>
+		<PlayerNumber>11</PlayerNumber>
+		<Age>30</Age>
+		<DraftYear>2008</DraftYear>
+		<Points>12.1</Points>
+		<Assists>1.1</Assists>
+		<Rebounds>4.3</Rebounds>
+		<FieldGoalPercentage>45.2</FieldGoalPercentage>
+	</StartingPlayers>
+
+
+	<StartingPlayers>
+		<Name>Kyle Lowry</Name>
+		<TeamName>Toronto Raptors</TeamName>
+		<PlayerNumber>7</PlayerNumber>
+		<Age>32</Age>
+		<DraftYear>2006</DraftYear>
+		<Points>14.3</Points>
+		<Assists>9.2</Assists>
+		<Rebounds>4.5</Rebounds>
+		<FieldGoalPercentage>41.0</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Danny Green</Name>
+		<TeamName>Toronto Raptors</TeamName>
+		<PlayerNumber>14</PlayerNumber>
+		<Age>31</Age>
+		<DraftYear>2009</DraftYear>
+		<Points>9.8</Points>
+		<Assists>1.4</Assists>
+		<Rebounds>4.1</Rebounds>
+		<FieldGoalPercentage>44.6</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Kawhi Leonard</Name>
+		<TeamName>Toronto Raptors</TeamName>
+		<PlayerNumber>2</PlayerNumber>
+		<Age>27</Age>
+		<DraftYear>2011</DraftYear>
+		<Points>27.0</Points>
+		<Assists>3.3</Assists>
+		<Rebounds>7.7</Rebounds>
+		<FieldGoalPercentage>49.4</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Pascal Siakam</Name>
+		<TeamName>Toronto Raptors</TeamName>
+		<PlayerNumber>43</PlayerNumber>
+		<Age>24</Age>
+		<DraftYear>2016</DraftYear>
+		<Points>16.1</Points>
+		<Assists>2.8</Assists>
+		<Rebounds>7.0</Rebounds>
+		<FieldGoalPercentage>55.1</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Serge Ibaka</Name>
+		<TeamName>Toronto Raptors</TeamName>
+		<PlayerNumber>9</PlayerNumber>
+		<Age>29</Age>
+		<DraftYear>2008</DraftYear>
+		<Points>16.0</Points>
+		<Assists>1.5</Assists>
+		<Rebounds>8.0</Rebounds>
+		<FieldGoalPercentage>52.7</FieldGoalPercentage>
+	</StartingPlayers>
+
+
+	<StartingPlayers>
+		<Name>Darren Collison</Name>
+		<TeamName>Indiana Pacers</TeamName>
+		<PlayerNumber>2</PlayerNumber>
+		<Age>31</Age>
+		<DraftYear>2009</DraftYear>
+		<Points>10.5</Points>
+		<Assists>5.9</Assists>
+		<Rebounds>2.9</Rebounds>
+		<FieldGoalPercentage>47.1</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Tyreke Evans</Name>
+		<TeamName>Indiana Pacers</TeamName>
+		<PlayerNumber>12</PlayerNumber>
+		<Age>29</Age>
+		<DraftYear>2009</DraftYear>
+		<Points>10.4</Points>
+		<Assists>2.4</Assists>
+		<Rebounds>2.7</Rebounds>
+		<FieldGoalPercentage>48.9</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Bojan Bogdanovic</Name>
+		<TeamName>Indiana Pacers</TeamName>
+		<PlayerNumber>44</PlayerNumber>
+		<Age>29</Age>
+		<DraftYear>2011</DraftYear>
+		<Points>16.8</Points>
+		<Assists>1.8</Assists>
+		<Rebounds>4.9</Rebounds>
+		<FieldGoalPercentage>49.4</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Thaddeus Young</Name>
+		<TeamName>Indiana Pacers</TeamName>
+		<PlayerNumber>21</PlayerNumber>
+		<Age>30</Age>
+		<DraftYear>2007</DraftYear>
+		<Points>12.5</Points>
+		<Assists>2.2</Assists>
+		<Rebounds>6.4</Rebounds>
+		<FieldGoalPercentage>53.2</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Myles Turner</Name>
+		<TeamName>Indiana Pacers</TeamName>
+		<PlayerNumber>33</PlayerNumber>
+		<Age>22</Age>
+		<DraftYear>2015</DraftYear>
+		<Points>13.5</Points>
+		<Assists>1.6</Assists>
+		<Rebounds>7.0</Rebounds>
+		<FieldGoalPercentage>50.9</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Stephen Curry</Name>
+		<TeamName>Golden State Warriors</TeamName>
+		<PlayerNumber>30</PlayerNumber>
+		<Age>30</Age>
+		<DraftYear>2009</DraftYear>
+		<Points>28.8</Points>
+		<Assists>5.3</Assists>
+		<Rebounds>5.1</Rebounds>
+		<FieldGoalPercentage>48.9</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Klay Thompson</Name>
+		<TeamName>Golden State Warriors</TeamName>
+		<PlayerNumber>11</PlayerNumber>
+		<Age>29</Age>
+		<DraftYear>2011</DraftYear>
+		<Points>21.8</Points>
+		<Assists>2.2</Assists>
+		<Rebounds>4.0</Rebounds>
+		<FieldGoalPercentage>46.8</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Kevin Durant</Name>
+		<TeamName>Golden State Warriors</TeamName>
+		<PlayerNumber>35</PlayerNumber>
+		<Age>30</Age>
+		<DraftYear>2007</DraftYear>
+		<Points>27.6</Points>
+		<Assists>5.9</Assists>
+		<Rebounds>7.0</Rebounds>
+		<FieldGoalPercentage>51.6</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Draymond Green</Name>
+		<TeamName>Golden State Warriors</TeamName>
+		<PlayerNumber>23</PlayerNumber>
+		<Age>28</Age>
+		<DraftYear>2012</DraftYear>
+		<Points>7.2</Points>
+		<Assists>7.3</Assists>
+		<Rebounds>7.5</Rebounds>
+		<FieldGoalPercentage>42.6</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>DeMarcus Cousins</Name>
+		<TeamName>Golden State Warriors</TeamName>
+		<PlayerNumber>0</PlayerNumber>
+		<Age>28</Age>
+		<DraftYear>2010</DraftYear>
+		<Points>14.2</Points>
+		<Assists>3.7</Assists>
+		<Rebounds>7.1</Rebounds>
+		<FieldGoalPercentage>43.1</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Jamal Murray</Name>
+		<TeamName>Denver Nuggets</TeamName>
+		<PlayerNumber>27</PlayerNumber>
+		<Age>21</Age>
+		<DraftYear>2016</DraftYear>
+		<Points>18.3</Points>
+		<Assists>5.0</Assists>
+		<Rebounds>4.2</Rebounds>
+		<FieldGoalPercentage>43.0</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Malik Beasley</Name>
+		<TeamName>Denver Nuggets</TeamName>
+		<PlayerNumber>25</PlayerNumber>
+		<Age>22</Age>
+		<DraftYear>2016</DraftYear>
+		<Points>12.0</Points>
+		<Assists>1.2</Assists>
+		<Rebounds>2.5</Rebounds>
+		<FieldGoalPercentage>50.3</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Torrey Craig</Name>
+		<TeamName>Denver Nuggets</TeamName>
+		<PlayerNumber>3</PlayerNumber>
+		<Age>28</Age>
+		<DraftYear>0000</DraftYear>
+		<Points>6.0</Points>
+		<Assists>0.9</Assists>
+		<Rebounds>3.9</Rebounds>
+		<FieldGoalPercentage>43.5</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Paul Millsap</Name>
+		<TeamName>Denver Nuggets</TeamName>
+		<PlayerNumber>4</PlayerNumber>
+		<Age>34</Age>
+		<DraftYear>2006</DraftYear>
+		<Points>12.2</Points>
+		<Assists>1.9</Assists>
+		<Rebounds>6.7</Rebounds>
+		<FieldGoalPercentage>48.9</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Nikola Jokic</Name>
+		<TeamName>Denver Nuggets</TeamName>
+		<PlayerNumber>15</PlayerNumber>
+		<Age>24</Age>
+		<DraftYear>2014</DraftYear>
+		<Points>20.4</Points>
+		<Assists>7.7</Assists>
+		<Rebounds>10.6</Rebounds>
+		<FieldGoalPercentage>50.5</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Russell Westbrook</Name>
+		<TeamName>Oklahoma City Thunder</TeamName>
+		<PlayerNumber>0</PlayerNumber>
+		<Age>30</Age>
+		<DraftYear>2008</DraftYear>
+		<Points>21.7</Points>
+		<Assists>11.2</Assists>
+		<Rebounds>11.2</Rebounds>
+		<FieldGoalPercentage>41.7</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Terrance Ferguson</Name>
+		<TeamName>Oklahoma City Thunder</TeamName>
+		<PlayerNumber>23</PlayerNumber>
+		<Age>20</Age>
+		<DraftYear>2017</DraftYear>
+		<Points>6.8</Points>
+		<Assists>0.8</Assists>
+		<Rebounds>1.8</Rebounds>
+		<FieldGoalPercentage>43.6</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Paul George</Name>
+		<TeamName>Oklahoma City Thunder</TeamName>
+		<PlayerNumber>13</PlayerNumber>
+		<Age>28</Age>
+		<DraftYear>2010</DraftYear>
+		<Points>28.7</Points>
+		<Assists>4.1</Assists>
+		<Rebounds>8.0</Rebounds>
+		<FieldGoalPercentage>45.3</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Jerami Grant</Name>
+		<TeamName>Oklahoma City Thunder</TeamName>
+		<PlayerNumber>9</PlayerNumber>
+		<Age>24</Age>
+		<DraftYear>2014</DraftYear>
+		<Points>13.1</Points>
+		<Assists>0.9</Assists>
+		<Rebounds>5.1</Rebounds>
+		<FieldGoalPercentage>52.0</FieldGoalPercentage>
+	</StartingPlayers>
+
+	<StartingPlayers>
+		<Name>Steven Adams</Name>
+		<TeamName>Oklahoma City Thunder</TeamName>
+		<PlayerNumber>12</PlayerNumber>
+		<Age>25</Age>
+		<DraftYear>2013</DraftYear>
+		<Points>14.7</Points>
+		<Assists>1.7</Assists>
+		<Rebounds>9.5</Rebounds>
+		<FieldGoalPercentage>60.7</FieldGoalPercentage>
+	</StartingPlayers>
+
+</StartingPlayersData>

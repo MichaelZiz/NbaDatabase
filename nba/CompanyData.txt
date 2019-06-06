@@ -1,0 +1,240 @@
+
+<CompanyData>
+
+		<Team>
+			<TeamName>Milwaukee Bucks</TeamName>
+			<HomeCity>Milwaukee</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$123,065,625</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>51</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Toronto Raptors</TeamName>
+			<HomeCity>Toronto</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$136,979,841</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>46</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Indiana Pacers</TeamName>
+			<HomeCity>Indianapolis</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$110,579,462</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>50</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Boston Celtics</TeamName>
+			<HomeCity>Boston</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$125,402,503</SalaryCap>
+			<Championships>17</Championships>
+			<GameWinPercentage>59</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Philadelphia 76ers</TeamName>
+			<HomeCity>Philadelphia</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$111,902,261</SalaryCap>
+			<Championships>3</Championships>
+			<GameWinPercentage>51</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Brooklyn Nets</TeamName>
+			<HomeCity>Brooklyn</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$117,566,883</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>42</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Charlotte Hornets</TeamName>
+			<HomeCity>Charlotte</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$121,810,182</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>44</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Detroit Pistons</TeamName>
+			<HomeCity>Detroit</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$123,481,463</SalaryCap>
+			<Championships>3</Championships>
+			<GameWinPercentage>49</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Golden State Warriors</TeamName>
+			<HomeCity>Oakland</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$144,992,231</SalaryCap>
+			<Championships>6</Championships>
+			<GameWinPercentage>48</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Denver Nuggets</TeamName>
+			<HomeCity>Denver</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$116,721,540</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>49</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Oklahoma City Thunder</TeamName>
+			<HomeCity>Oklahoma City</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$142,717,677</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Portland Trail Blazers</TeamName>
+			<HomeCity>Portland</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$132,346,018</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Houston Rockets</TeamName>
+			<HomeCity>Houston</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$122,855,390</SalaryCap>
+			<Championships>2</Championships>
+			<GameWinPercentage>53</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Utah Jazz</TeamName>
+			<HomeCity>Salt Lake City</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$113,394,016</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>San Antonio Spurs</TeamName>
+			<HomeCity>San Antonio</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$122,617,513</SalaryCap>
+			<Championships>5</Championships>
+			<GameWinPercentage>62</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Los Angeles Clippers</TeamName>
+			<HomeCity>Los Angeles</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$116,731,007</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>40</GameWinPercentage>
+		</Team>
+		<Company>
+			<Id>1</Id>
+			<Name>Harley Davidson</Name>
+			<TeamName>Milwaukee Bucks</TeamName>
+			<CompanyNet>$9 Billion</CompanyNet>
+		</Company>
+
+		<Company>
+			<Id>2</Id>
+			<Name>Sun Life</Name>
+			<TeamName>Toronto Raptors</TeamName>
+			<CompanyNet>$258 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>3</Id>
+			<Name>Motorola</Name>
+			<TeamName>Indiana Pacers</TeamName>
+			<CompanyNet>$13 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>4</Id>
+			<Name>General Electric</Name>
+			<TeamName>Boston Celtics</TeamName>
+			<CompanyNet>$70 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>5</Id>
+			<Name>StubHub</Name>
+			<TeamName>Philadelphia 76ers</TeamName>
+			<CompanyNet>$310 Million</CompanyNet>
+		</Company>
+
+		<Company>
+			<Id>6</Id>
+			<Name>Infor</Name>
+			<TeamName>Brooklyn Nets</TeamName>
+			<CompanyNet>$10 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>7</Id>
+			<Name>Lending Tree</Name>
+			<TeamName>Charlotte Hornets</TeamName>
+			<CompanyNet>$3 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>8</Id>
+			<Name>Flagstar Bank</Name>
+			<TeamName>Detroit Pistons</TeamName>
+			<CompanyNet>$14 Billion</CompanyNet>
+		</Company>
+
+		<Company>
+			<Id>9</Id>
+			<Name>Rakuten</Name>
+			<TeamName>Golden State Warriors</TeamName>
+			<CompanyNet>$4.8 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>10</Id>
+			<Name>Western Union</Name>
+			<TeamName>Denver Nuggets</TeamName>
+			<CompanyNet>$2 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>11</Id>
+			<Name>N/A</Name>
+			<TeamName>Oklahoma City Thunder</TeamName>
+			<CompanyNet>N/A</CompanyNet>
+		</Company>
+		<Company>
+			<Id>12</Id>
+			<Name>BiOFREEZE</Name>
+			<TeamName>Portland Trail Blazers</TeamName>
+			<CompanyNet>$70 Million</CompanyNet>
+		</Company>
+
+		<Company>
+			<Id>13</Id>
+			<Name>ROCKiT</Name>
+			<TeamName>Houston Rockets</TeamName>
+			<CompanyNet>$2 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>14</Id>
+			<Name>5 For The Fight</Name>
+			<TeamName>Utah Jazz</TeamName>
+			<CompanyNet>$10 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>15</Id>
+			<Name>Frost</Name>
+			<TeamName>San Antonio Spurs</TeamName>
+			<CompanyNet>$1 Billion</CompanyNet>
+		</Company>
+		<Company>
+			<Id>16</Id>
+			<Name>Bumble</Name>
+			<TeamName>Los Angeles Clippers</TeamName>
+			<CompanyNet>$5 Billion</CompanyNet>
+		</Company>
+
+</CompanyData>

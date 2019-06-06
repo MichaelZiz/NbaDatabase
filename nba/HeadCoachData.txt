@@ -1,0 +1,271 @@
+<HeadCoachData>
+
+
+
+
+		<Team>
+			<TeamName>Milwaukee Bucks</TeamName>
+			<HomeCity>Milwaukee</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$123,065,625</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>51</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Toronto Raptors</TeamName>
+			<HomeCity>Toronto</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$136,979,841</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>46</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Indiana Pacers</TeamName>
+			<HomeCity>Indianapolis</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$110,579,462</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>50</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Boston Celtics</TeamName>
+			<HomeCity>Boston</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$125,402,503</SalaryCap>
+			<Championships>17</Championships>
+			<GameWinPercentage>59</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Philadelphia 76ers</TeamName>
+			<HomeCity>Philadelphia</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$111,902,261</SalaryCap>
+			<Championships>3</Championships>
+			<GameWinPercentage>51</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Brooklyn Nets</TeamName>
+			<HomeCity>Brooklyn</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$117,566,883</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>42</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Charlotte Hornets</TeamName>
+			<HomeCity>Charlotte</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$121,810,182</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>44</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Detroit Pistons</TeamName>
+			<HomeCity>Detroit</HomeCity>
+			<Conference>Eastern</Conference>
+			<SalaryCap>$123,481,463</SalaryCap>
+			<Championships>3</Championships>
+			<GameWinPercentage>49</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Golden State Warriors</TeamName>
+			<HomeCity>Oakland</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$144,992,231</SalaryCap>
+			<Championships>6</Championships>
+			<GameWinPercentage>48</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Denver Nuggets</TeamName>
+			<HomeCity>Denver</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$116,721,540</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>49</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Oklahoma City Thunder</TeamName>
+			<HomeCity>Oklahoma City</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$142,717,677</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+
+		<Team>
+			<TeamName>Portland Trail Blazers</TeamName>
+			<HomeCity>Portland</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$132,346,018</SalaryCap>
+			<Championships>1</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Houston Rockets</TeamName>
+			<HomeCity>Houston</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$122,855,390</SalaryCap>
+			<Championships>2</Championships>
+			<GameWinPercentage>53</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Utah Jazz</TeamName>
+			<HomeCity>Salt Lake City</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$113,394,016</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>54</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>San Antonio Spurs</TeamName>
+			<HomeCity>San Antonio</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$122,617,513</SalaryCap>
+			<Championships>5</Championships>
+			<GameWinPercentage>62</GameWinPercentage>
+		</Team>
+		<Team>
+			<TeamName>Los Angeles Clippers</TeamName>
+			<HomeCity>Los Angeles</HomeCity>
+			<Conference>Western</Conference>
+			<SalaryCap>$116,731,007</SalaryCap>
+			<Championships>0</Championships>
+			<GameWinPercentage>40</GameWinPercentage>
+		</Team>
+
+		<HeadCoach>
+			<Id>1</Id>
+			<WinPercentage>76</WinPercentage>
+			<Age>49</Age>
+			<Name>Mike Budenholzer</Name>
+			<TeamName>Milwaukee Bucks</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>2</Id>
+			<WinPercentage>73</WinPercentage>
+			<Age>51</Age>
+			<Name>Nick Nurse</Name>
+			<TeamName>Toronto Raptors</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>3</Id>
+			<WinPercentage>55</WinPercentage>
+			<Age>54</Age>
+			<Name>Nate McMillan</Name>
+			<TeamName>Indiana Pacers</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>4</Id>
+			<WinPercentage>54</WinPercentage>
+			<Age>42</Age>
+			<Name>Brad Stevens</Name>
+			<TeamName>Boston Celtics</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>5</Id>
+			<WinPercentage>30</WinPercentage>
+			<Age>58</Age>
+			<Name>Brett Brown</Name>
+			<TeamName>Philadelphia 76ers</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>6</Id>
+			<WinPercentage>29</WinPercentage>
+			<Age>51</Age>
+			<Name>Kenny Atkinson</Name>
+			<TeamName>Brooklyn Nets</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>7</Id>
+			<WinPercentage>43</WinPercentage>
+			<Age>441</Age>
+			<Name>James Borrego</Name>
+			<TeamName>Charlotte Hornets</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>8</Id>
+			<WinPercentage>57</WinPercentage>
+			<Age>61</Age>
+			<Name>Dwane Casey</Name>
+			<TeamName>Detroit Pistons</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>9</Id>
+			<WinPercentage>80</WinPercentage>
+			<Age>53</Age>
+			<Name>Steve Kerr</Name>
+			<TeamName>Golden State Warriors</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>10</Id>
+			<WinPercentage>48</WinPercentage>
+			<Age>47</Age>
+			<Name>Michael Malone</Name>
+			<TeamName>Denver Nuggets</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>11</Id>
+			<WinPercentage>61</WinPercentage>
+			<Age>53</Age>
+			<Name>Billy Donovan</Name>
+			<TeamName>Oklahoma City Thunder</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>12</Id>
+			<WinPercentage>55</WinPercentage>
+			<Age>61</Age>
+			<Name>Terry Stotts</Name>
+			<TeamName>Portland Trail Blazers</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>13</Id>
+			<WinPercentage>73</WinPercentage>
+			<Age>67</Age>
+			<Name>Mike D Antoni</Name>
+			<TeamName>Houston Rockets</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>14</Id>
+			<WinPercentage>54</WinPercentage>
+			<Age>52</Age>
+			<Name>Quin Snyder</Name>
+			<TeamName>Utah Jazz</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>15</Id>
+			<WinPercentage>69</WinPercentage>
+			<Age>70</Age>
+			<Name>Gregg Popovich</Name>
+			<TeamName>San Antonio Spurs</TeamName>
+		</HeadCoach>
+
+		<HeadCoach>
+			<Id>16</Id>
+			<WinPercentage>63</WinPercentage>
+			<Age>57</Age>
+			<Name>Doc Rivers</Name>
+			<TeamName>Los Angeles Clippers</TeamName>
+		</HeadCoach>
+
+
+</HeadCoachData>

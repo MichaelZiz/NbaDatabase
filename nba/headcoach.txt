@@ -1,0 +1,21 @@
+--HeadCoach Table 
+--eastern conference
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (76,49,'Mike Budenholzer','Milwaukee Bucks');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (73,51,'Nick Nurse','Toronto Raptors');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (55,54,'Nate McMillan','Indiana Pacers');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (54,42,'Brad Stevens','Boston Celtics');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (30,58,'Brett Brown','Philadelphia 76ers');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (29,51,'Kenny Atkinson','Brooklyn Nets');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (43,41,'James Borrego','Charlotte Hornets');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (57,61,'Dwane Casey','Detroit Pistons');
+
+--western conference
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (80,53,'Steve Kerr','Golden State Warriors');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (48,47,'Michael Malone','Denver Nuggets');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (61,53,'Billy Donovan','Oklahoma City Thunder');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (55,61,'Terry Stotts','Portland Trail Blazers');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (73,67,'Mike D Antoni','Houston Rockets');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (54,52,'Quin Snyder','Utah Jazz');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (69,70,'Gregg Popovich','San Antonio Spurs');
+INSERT INTO HeadCoach(WinPercentage,Age,Name,TeamName) VALUES (63,57,'Doc Rivers','Los Angeles Clippers');
+--------------------------------------------------------------------------------------------------------------------------

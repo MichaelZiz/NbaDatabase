@@ -1,0 +1,81 @@
+CREATE TABLE Company( --MANY TO ONE
+	Id INTEGER PRIMARY KEY AUTOINCREMENT,
+	Name VARCHAR(255) NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CompanyNet VARCHAR(255) NOT NULL,---CHANGED
+	CONSTRAINT UIX_Name UNIQUE(Name),
+	CONSTRAINT FK_TeamName FOREIGN KEY (TeamName) REFERENCES Team(TeamName) 
+); 
+
+CREATE TABLE Owner( --MANY TO ONE
+	Id INTEGER PRIMARY KEY AUTOINCREMENT,
+	Name VARCHAR(255) NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	NetWorth VARCHAR(255) NOT NULL,---------CHANGED
+	CONSTRAINT UIX_Name UNIQUE(Name),
+	CONSTRAINT FK_TeamName FOREIGN KEY (TeamName) REFERENCES Team(TeamName)
+);  -- A team can be owned by multiple owners, owners can only own one team (MANY TO ONE)
+
+CREATE TABLE GeneralManager( --ONE TO ONE WITH TEAM
+	Id INTEGER PRIMARY KEY AUTOINCREMENT,
+	Name VARCHAR(255) NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	Age INT NOT NULL,
+	NumberOfTeams INT NOT NULL,
+	CONSTRAINT UIX_Name UNIQUE(Name)
+); -- Optional for a team to be managed by a general manager, a general manager manages one team (ONE TO ONE)
+
+
+CREATE TABLE Team( --R1
+	TeamName VARCHAR(255) NOT NULL, 
+	HomeCity VARCHAR(255) NOT NULL,
+	Conference VARCHAR(255) NOT NULL,
+	SalaryCap VARCHAR(255) NOT NULL,-------CHANGED
+	Championships INT NOT NULL,
+	GameWinPercentage INT NOT NULL,
+	CONSTRAINT UIX_Name UNIQUE(TeamName),
+	PRIMARY KEY (TeamName)	
+); 
+
+CREATE TABLE HeadCoach( --R2 ONE TO ONE WITH TEAM
+	Id INTEGER PRIMARY KEY AUTOINCREMENT,
+	WinPercentage INT NOT NULL,
+	Age INT NOT NULL,
+	Name VARCHAR(255) NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CONSTRAINT UIX_Name UNIQUE(Name)
+); -- Mandatory for a team to be trained by a head-coach, head-coach can only be training one team (ONE TO ONE)
+
+CREATE TABLE GeneralManagerTeamRelation(
+	GeneralManagerId INT NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CONSTRAINT GeneralManagerId_UIX UNIQUE(GeneralManagerId),
+	CONSTRAINT CK_GeneralManagerId FOREIGN KEY (GeneralManagerId) REFERENCES GeneralManager(Id),
+	CONSTRAINT FK_TeamName FOREIGN KEY (TeamName) REFERENCES Team(TeamName),
+	PRIMARY KEY (TeamName)
+);
+
+CREATE TABLE HeadCoachTeamRelation(
+	HeadCoachId INT NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	CONSTRAINT HeadCoachId_UIX UNIQUE(HeadCoachId),
+	CONSTRAINT CK_HeadCoach FOREIGN KEY (HeadCoachId) REFERENCES HeadCoach(Id),
+	CONSTRAINT FK_TeamName FOREIGN KEY (TeamName) REFERENCES Team(TeamName) ,
+	PRIMARY KEY (TeamName)
+); 
+
+CREATE TABLE StartingPlayers( -- MANY TO ONE
+	Name VARCHAR(255) NOT NULL,
+	TeamName VARCHAR(255) NOT NULL,
+	PlayerNumber INT NOT NULL,
+	Age INT NOT NULL,
+	DraftYear INT NOT NULL,
+	Points FLOAT NOT NULL,--CHANGED
+	Assist FLOAT NOT NULL,
+	Rebounds FLOAT NOT NULL,
+	FieldGoalPercentage FLOAT NOT NULL,
+	CONSTRAINT UIX_Name UNIQUE(Name),
+	CONSTRAINT PK_StartingPlayer PRIMARY KEY (Name,PlayerNumber),
+	CONSTRAINT FK_TeamName FOREIGN KEY (TeamName) REFERENCES Team(TeamName)
+	
+); -- team is composed of players that play, players play for one team (MANY TO ONE)
